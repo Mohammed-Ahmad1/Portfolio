@@ -10,11 +10,12 @@
 
     <main class="MainContainer">
 
-   
+
     <nav class="navbar">
 
     
     <div class="nav-list">
+        <a href="#Home">Home</a>
         <a href="#About">About</a>
         <a href="#Skills">Skills</a>
         <a href="#Projects">Projects</a>
@@ -25,27 +26,44 @@
 </nav>
 
 
-        <section class="About" id="About">
-    
+<section class="Home" id="Home">
+    <div class="HomePage">
+        <div class="HomeImageContainer">
+        </div>
+        <h1 class="Greet">Hi, I'm <span>Mohammed Falahaddin</span></h1>
+        <h2 class="JobTitle">Software Engineer | .NET Developer | Full-Stack</h2>
+        <p class="BriefDescription">Passionate developer with 
+          expertise in building scalable .NET applications,
+          implementing modern architectural patterns, 
+          and delivering high-quality solutions through
+          research-driven 
+          problem-solving and continuous learning.</p>
+        <p class="InfoLinks">
+            <a href="Mohammed-Ahmad-CV.pdf" target="_blank" class="ViewCV">View My CV</a>
+            <a href="#Contact" class="ContactMe">Contact Me</a>
+        </p>
+        <div class="Home-social-icons">
+            <a href="https://www.linkedin.com/in/mohammed-ahmad1" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Mohammed-Ahmad1"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</section>
+
+  <section class="About" id="About">
 
     <div class="AboutContent">
-        <img src="ColorShirt.jpg" alt="Profile Image" class="ProfileImage">
+        <img src="MyImage.jpg" alt="Profile Image" class="ProfileImage">
 
         <div class="Description">
-            <h2>Who I Am</h2>
-
+          
+          <h2 class="AboutMe" >About Me</h2>
             <p>
                 I'm a Specialized in .NET backend development focused on building scalable backend solutions with a solid foundation in problem-solving and databases
                 Experienced in solving 
                 hundreds of challenges and delivering multiple projects and practices. Completed over 22 courses 
                 in programming fundamentals and backend technologies. Currently expanding skills in frontend development.       
             </p>
-
-            <p class="InfoLinks">
-
-                <a href="Mohammed-Ahmad-CV.pdf" target="_blank" class="ViewCV">View My CV</a>
-                <a href="#Contact" class="ContactMe">Contact Me</a>
-            </p>
+           
         </div>
     </div>
         </section>
@@ -73,10 +91,11 @@
                     <h2>Databases & ORM</h2>
                 </header>
                 <div class="Databases">
-                    <span>SQL Server</span>
+                    <span>SQL</span>
                     <span>T-SQL</span>
                     <span>Database Design</span>
                     <span>ADO.NET</span>
+                    <span>LINQ</span>
 
                 </div>
             </div>
@@ -126,19 +145,16 @@
 
               <div class="card">
                 <header class="Skills">
-                    <i class="fa-solid fa-users"></i>
-                    <h2>Soft Skills</h2>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>UI/UX</h2>
                 </header>
-                <div class="SoftSkills">
-                    <span>TeamWork</span>
-                    <span>Fast learning</span>
-                    <span>Communication</span>
+                <div class="UIUX">
+                    <span>Figma Basics</span>
+                    <span>Miro Basics</span>
                 </div>
             </div>
 
         </section>
-
-
 
 
   <section class="ProjectsSection" id="Projects">
@@ -147,14 +163,12 @@
   <div class="projects-grid">
 
     <div class="project-card">
-      <!-- <img src="BankImage.) has gained…" alt="Bank System" class="project-img"> -->
       <div class="project-content">
         <h3>Bank Management System</h3>
         <p>
           application designed to manage client and user data for a banking system.
           It allows administrators to perform operations such as adding, deleting, updating, and finding clients, 
-          as well as managing transactions like deposits and withdrawals. The system also includes user management with role-based access control,
-          ensuring that only authorized users can perform specific actions..
+          as well as managing transactions like deposits and withdrawals.
         </p>
         <div class="tag-list">
           <span>C++</span><span>OOP</span><span>Files Storage</span>
@@ -163,13 +177,12 @@
     </div>
 
     <div class="project-card">
-      <!-- <img src="BankImage.) has gained…" alt="Bank System" class="project-img"> -->
       <div class="project-content">
         <h3>ATM System</h3>
         <p>
-                
-                 Implemented withdrawals (pre-set / custom amounts), deposits and balance checks.         
-                Prov-ided real-time account updates with input validation.   
+              
+               he ATM System project simulates the functionalities of an Automated Teller Machine (ATM).
+                It allows users to perform basic banking operations in a secure and structured manner, including account access, balance inquiry, deposits, withdrawals
          
         </p>
         <div class="tag-list">
@@ -180,7 +193,6 @@
 
     
     <div class="project-card">
-      <!-- <img src="Clinic.png" alt="Bank System" class="project-img"> -->
       <div class="project-content">
         <h3>Clinic Management System</h3>
         <p>
@@ -196,7 +208,6 @@
     </div>
 
     <div class="project-card">
-      <!-- <img src="BankImage.) has gained…" alt="Bank System" class="project-img"> -->
       <div class="project-content">
         <h3>Driver Vechicles License Department</h3>
         <p>
@@ -210,7 +221,6 @@
     </div>
 
     <div class="project-card">
-      <!-- <img src="BankImage.) has gained…" alt="Bank System" class="project-img"> -->
       <div class="project-content">
         <h3>Student Management API</h3>
         <p>
@@ -226,16 +236,16 @@
       </div>
     </div>
         <div class="project-card">
-      <!-- <img src="BankImage.) has gained…" alt="Bank System" class="project-img"> -->
       <div class="project-content">
         <h3>Databases Design Projects</h3>
         <p>
           
-          Designed relational schemas & ERD's for clinic, library, karate club, car rental, and online store systems.
+        Designed relational schemas & ERD's for clinic system , library management system, karate club, car rental, and online store system.
         Wrote SQL queries for data manipulation and retrieval.
         </p>
         <div class="tag-list">
           <span>SQL Server</span><span>Database Design</span>
+          <span>T-SQL</span>
         </div>
       </div>
     </div>
@@ -245,18 +255,11 @@
 
 </body>
 </html>
-    <section class="ShowProjects">
-        <button type="button">
-      <a href="https://github.com/Mohammed-Ahmad1" target="_blank"> View All Projects</a>
-    </button>
-    </section>
 
 <section class="ExperienceSection" id="Experience">
     <h2 id="exp-title">Work Experience</h2>
-    <div class="experience-cards">
         <div class="exp-card">
             <div class="timeline">
-                <div class="tl-item">
                     <div class="tl-role">Full-Stack Developer</div>
                     <div class="tl-meta">Orange Jordan • Amman • Oct 2025 — Present</div>
                     <ul class="muted">
@@ -266,17 +269,15 @@
                     </ul>
                 </div>
             </div>
-        </div>
     </div>
 </section>
-
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
 <section class="education-section" id="Education">
     
-    <h2 class="EducationTitle"  id="Projects">Education</h2>
+    <h2 class="EducationTitle" id="Projects">Education</h2>
     <div class="edu-card">
         
         <div class="edu-icon">
@@ -293,33 +294,36 @@
                     <span>Jun 2026</span>
                 </div>
 
-
             </div>
         </div>
-
     </section>
 
+    <footer class="footer" id="Contact">
+    <div class="footer-content">
+        <div class="footer-item">
+            <i class="fa-solid fa-envelope"></i> 
+              <a href="mailto::mfalahaddin@gmail.com">mfalahaddin@gmail.com</a> 
+        </div>
+        <div class="footer-item">
+            <i class="fa-solid fa-phone"></i> 
+             <a href="tel:+962779307406">+962779307406</a> 
+            </div>
+            
 
-<footer class="main-footer">
-
-    <div class="footer-left">
-        <h3 class="footer-name">Mohammed Falahaddin</h3>
-    </div>
-    
-    <div class="footer-right" id="Contact">
-        
-        <p class="footer-copy">© 2025 Mohammed Falahaddin. All rights reserved.</p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/mohammed-ahmad1" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+           
+        <div class="footer-item">
+            <i class="fa-solid fa-location-dot"></i> Amman, Jordan
+        </div>
+        <div class="footer-item footer-social">
+            <a href="https://www.linkedin.com/in/mohammed-ahmad1"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/Mohammed-Ahmad1"><i class="fa-brands fa-github"></i></a>
-            <a href="https://wa.me/962779307406" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="mailto:mfalahaddin@gmail.com"><i class="fa-solid fa-envelope"></i> </a>
-            <a href="tel:+96277930406"><i class="fa-solid fa-phone"></i></a>
+             <a href="https://wa.me/779307406" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://web.facebook.com/mohammedatterawi/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+
         </div>
     </div>
-
 </footer>
     </main>
-
 </body>
 </html>
